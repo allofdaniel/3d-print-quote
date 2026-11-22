@@ -1,0 +1,20 @@
+{
+  "name": "3d-print-quote",
+  "version": "1.0.0",
+  "description": "3D프린팅(FDM) 견적 계산기: STL의 실제 부피·겉넓이·받침량으로 출력 시간, 소재 무게, 예상 가격을 계산합니다. FDM 3D printing quote calculator.",
+  "type": "module",
+  "main": "src/price.js",
+  "bin": { "3d-print-quote": "cli.js" },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["3d-printing", "3d-print", "fdm", "quote", "price", "calculator", "stl", "slicer", "3D프린팅", "견적", "출력 대행"],
+  "homepage": "https://ido3dprint.com/3d-printing-price.html",
+  "author": "이도 3D프린팅 (IDO 3D Printing) <help@ido3dprint.com> (https://ido3dprint.com)",
+  "license": "MIT",
+  "dependencies": {
+    "three": "0.170.0",
+    "three-mesh-bvh": "0.9.1"
+  },
+  "engines": { "node": ">=18" }
+}
