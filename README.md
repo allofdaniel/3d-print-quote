@@ -5,7 +5,7 @@ STL 파일 하나로 **3D프린팅 예상 가격, 출력 시간, 소재 무게, 
 
 - 실제 서비스에서 쓰는 코드입니다: [이도 3D프린팅 온라인 자동 견적](https://ido3dprint.com/order.html)
 - 계산 기준 설명(한국어): [3D프린팅 가격은 이렇게 계산합니다](https://ido3dprint.com/3d-printing-price.html)
-- 만든 곳: [이도 3D프린팅](https://ido3dprint.com) · 세종특별자치시 조치원읍 · FDM 3D프린터 출력 대행, 3D 모델링, 시제품 제작
+- 만든 곳: [이도 3D프린팅](https://ido3dprint.com) · 세종특별자치시 보람동 · FDM 3D프린터 출력 대행, 3D 모델링, 시제품 제작
 
 > English: An open-source FDM 3D printing quote engine. It measures real volume, surface area and overhang/support volume from an STL (not just the bounding box) and estimates print time, filament grams and price. It is the same code that powers the online quote at [ido3dprint.com](https://ido3dprint.com/order.html), a 3D printing service in Sejong, South Korea.
 
